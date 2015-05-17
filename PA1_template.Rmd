@@ -2,8 +2,8 @@
 ## Loading and preprocessing the data
 1. Load the data 
 ```{r echo=TRUE}
-setwd("C:/Users/grouby/Desktop/Coursera/Rep_Assignement1")
-unzip("activity.zip")
+setwd("C:/Users/grouby/Desktop/Coursera/Rep_Assignement1/RepData_PeerAssessment1")
+unzip("repdata-data-activity.zip")
 data <- read.table("activity.csv", sep = ",", header=TRUE, na.strings = "NA")
 ```
 2. Process/transform the data (if necessary) into a format suitable for your analysis

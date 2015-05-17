@@ -57,11 +57,9 @@ if (window.hljs && document.readyState && document.readyState === "complete") {
 <ol style="list-style-type: decimal">
 <li>Load the data</li>
 </ol>
-<pre class="r"><code>setwd(&quot;C:/Users/grouby/Desktop/Coursera/Rep_Assignement1&quot;)
-unzip(&quot;activity.zip&quot;)</code></pre>
-<pre><code>## Warning in unzip(&quot;activity.zip&quot;): erreur 1 lors de l'extraction d'un
-## fichier zip</code></pre>
-<pre class="r"><code>data &lt;- read.table(&quot;activity.csv&quot;, sep = &quot;,&quot;, header=TRUE, na.strings = &quot;NA&quot;)</code></pre>
+<pre class="r"><code>setwd(&quot;C:/Users/grouby/Desktop/Coursera/Rep_Assignement1/RepData_PeerAssessment1&quot;)
+unzip(&quot;repdata-data-activity.zip&quot;)
+data &lt;- read.table(&quot;activity.csv&quot;, sep = &quot;,&quot;, header=TRUE, na.strings = &quot;NA&quot;)</code></pre>
 <ol start="2" style="list-style-type: decimal">
 <li>Process/transform the data (if necessary) into a format suitable for your analysis</li>
 </ol>
